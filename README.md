@@ -2,18 +2,25 @@
 
 A website written in noir. 
 
-## Usage
+## Models
 
-If you use cake, substitute 'lein' with 'cake' below. Everything should work fine.
+# User
+First Name
+Last Name
+Email Address
+Password
+Gender
+Orders (model)
+Payment (model)
+Shipping (model)
 
-```bash
-lein deps
-lein run
-```
+# Cart
+User (model)
+Contents
 
-## License
-
-Copyright (C) 2011 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+# Checkout
+User (model)
+Cart (model)
+Payment (model)
+Shipping (model)
 
